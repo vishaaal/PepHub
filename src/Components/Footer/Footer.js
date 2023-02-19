@@ -3,6 +3,7 @@ import './footer.css'
 import LIN from '../../Assets/socials/linkedin-app.png'
 import Insta from '../../Assets/socials/insta.png'
 import FB from '../../Assets/socials/facebook.png'
+import LINE from "../../Assets/LINE.png"
 export default function Footer() {
   return (
     <footer className='main'>
@@ -15,6 +16,10 @@ export default function Footer() {
           <p className='newsletter'><strong>join our newsletter for daily updates!</strong></p>
           <div className="input-group">
             <input type="text" className="form-control" aria-label="Text input with checkbox" /> <span><button type="button" className="mx-2 btn btn-primary">Subscribe</button></span>
+            <img className="end-line mt-3" src={LINE} alt="" />
+            <div className="rights">
+              <h6 className="reserved">© The Clever World. All rights reserved.</h6>
+            </div>
           </div>
         </div>
         <div className="sidebar-1">
