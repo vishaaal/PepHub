@@ -1,0 +1,13 @@
+.infobg{
+    background-image: url('../../Assets/LOL.png');
+    height: 100vh;
+    width: 100vw;
+}
+
+.tabb{
+    background: #F9FAFB;
+    /* Neutral/300 */
+    
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+}
