@@ -2,6 +2,7 @@
   height: 460px;
   width: 100%;
   background-image: url('../../Assets/FooterBackground.png');
+  /* background-repeat: no-repeat; */
   display: flex;
 }
 

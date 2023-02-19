@@ -3,6 +3,7 @@ import codeLogo from "../../Assets/codeLogo.png";
 import search from "../../Assets/search.png";
 import translate from "../../Assets/translate.png";
 import moon from "../../Assets/moon.png";
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -30,9 +31,12 @@ export default function Navbar() {
       </div>
     </div>
     <div className="navbar d-inline-flex p-2 w-100 justify-content-center " style={{backgroundColor:" #EFF6FF"}}>
-        <div className="px-5">
+      <NavLink to="/blogs" style={{ textDecoration: 'none' }} >
+      <div className="px-5">
           Blogs
         </div>
+      </NavLink>
+        
         <div className="px-5 justifyContentEnd">
           Interview Prep
         </div>
