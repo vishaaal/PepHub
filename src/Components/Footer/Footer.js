@@ -18,7 +18,7 @@ export default function Footer() {
             <input type="text" className="form-control" aria-label="Text input with checkbox" /> <span><button type="button" className="mx-2 btn btn-primary">Subscribe</button></span>
             <img className="end-line mt-3" src={LINE} alt="" />
             <div className="rights">
-              <h6 className="reserved">© The Clever World. All rights reserved.</h6>
+              <h6 className="reserved text-white">© The Clever World. All rights reserved.</h6>
             </div>
           </div>
         </div>
