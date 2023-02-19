@@ -1,8 +1,9 @@
 import React from "react";
+import './info.css'
 
 export default function Info() {
   return (
-    <div className="h-50 infobg d-flex justify-content-center justify-content-around">
+    <div className="h-50 my-5 infobg d-flex justify-content-center justify-content-around">
       <div className="p-5">
         <h1>Share Your Knowledge </h1>
         <h1>Write For PepHub</h1>
