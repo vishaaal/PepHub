@@ -1,5 +1,6 @@
 import React from "react";
 import imgg from "../../Assets/lolll.png";
+import book from "../../Assets/bookmark.png";
 
 export default function blogs() {
   return (
@@ -10,33 +11,44 @@ export default function blogs() {
           <div className="px-5">Top</div>
           <div>Your Internals</div>
         </div>
+        <div className="d-flex mb-2">
+          <div className="mr-4">
+            <img src={imgg} />
+          </div>
+          <div>
+            <div className="font-weight-bold">Lorem Ipsum</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ab
+              tempore in quae quo?
+            </div>
+            <div className="d-flex mt-5 text-primary">
+              <div className="px-2 border border-light rounded">#lorem</div>
+              <div className="px-2 border border-light rounded">#lorem</div>
+              <div className="px-2 border border-light rounded">#lorem</div>
+            </div>
+           
+          </div>
+          
+        </div>
         <div className="d-flex">
           <div className="mr-4">
             <img src={imgg} />
           </div>
           <div>
-            <div className="font-weight-bold">
-                
-            Lorem Ipsum
-            </div>
+            <div className="font-weight-bold">Lorem Ipsum</div>
             <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ab tempore in quae quo?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ab
+              tempore in quae quo?
             </div>
             <div className="d-flex mt-5 text-primary">
-            <div className="px-2">
-                #lorem
+              <div className="px-2 border border-light rounded">#lorem</div>
+              <div className="px-2 border border-light rounded">#lorem</div>
+              <div className="px-2 border border-light rounded">#lorem</div>
             </div>
-            <div className="px-2">
-                #lorem
-            </div>
-            <div className="px-2">
-                #lorem
-            </div>
-          </div>
+           
           </div>
           
         </div>
-        
       </div>
 
       <div>
