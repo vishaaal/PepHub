@@ -1,0 +1,79 @@
+.container-footer {
+  height: 460px;
+  width: 100%;
+  background-image: url('../../Assets/FooterBackground.png');
+  display: flex;
+}
+
+.handles{
+  height: auto;
+  width: 59.5%;
+}
+.sidebar-1{
+  color:white;
+  margin: 0px 18px;
+}
+
+.sidebar-2{
+  color: white;
+  margin:56px 6px;
+}
+
+.sidebar-2 ul{
+  list-style-type: none;
+}
+
+.sidebar-1 ul{
+  margin:56px 0px;
+  list-style-type: none;
+}
+
+.footer-heading {
+  text-align: left;
+  color: white;
+  margin: 5px 5px;
+  padding: 40px 22px;
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.insta {
+  height: 32px;
+  width: 32px;
+}
+
+.lin {
+  height: 32px;
+  width: 32px;
+  margin: 0 25px
+}
+
+.fb {
+  height: 32px;
+  width: 32px;
+  margin: 0 25px
+}
+
+.newsletter {
+  color: white;
+  margin: 40px 5px;
+  padding: 40px 22px;
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+
+
+}
+
+.input-group {
+  width: 55%;
+  margin: 24px 5px;
+  padding: 0px 22px;
+}
+
+.subs{
+  margin : 0px 2px;
+}
