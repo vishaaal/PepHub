@@ -1,11 +1,12 @@
 import React from "react";
 import peplogo from "../../Assets/logo.svg";
 import herosec from "../../Assets/heroSectionImg.svg"
+import './hero.css'
 
 export default function hero() {
   return (
-    <div className="d-flex justify-content-center flex-column align-items-center  mt-5" >
-      <div className="pb-2">
+    <div className="d-flex heroimg justify-content-center flex-column align-items-center mb-3" >
+      <div className="pb-2 mt-3">
         <img src={peplogo} style={{ height: "50px", width: "auto" }} />
       </div>
 
